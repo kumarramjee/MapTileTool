@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobimedia.locationmaptool.ui.MainActivity" >
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+       />
+ 
+  
+    </RelativeLayout>
+<!-- From: file:/home/ram/Downloads/MapTileTool/app/src/main/res/layout/activity_adjust_all_tile.xml -->

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+   android:background="@drawable/splash_gredient" >
+
+
+    <TextView
+        android:id="@+id/splashscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MapTileTool"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</LinearLayout><!-- From: file:/home/ram/Downloads/MapTileTool/app/src/main/res/layout/activity_splash_screen.xml -->

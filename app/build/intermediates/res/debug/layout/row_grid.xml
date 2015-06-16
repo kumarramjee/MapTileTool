@@ -1,0 +1,273 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+       android:paddingLeft="5dp"
+        android:src="@drawable/pic1"
+        android:paddingTop="0dp"
+         >
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_image"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+      android:orientation="vertical"
+         >
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+        
+        
+      <TextView
+            android:id="@+id/topleftlatlong"
+            android:layout_below="@+id/item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TopLeft:" 
+            android:textStyle="bold"/>
+     
+        <TextView
+            android:id="@+id/edittopleftlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/toprightlatlong"
+            android:layout_below="@+id/item_text"
+            android:layout_toRightOf="@+id/topleftlatlong"
+            android:textSize="12sp" />
+        
+         <TextView
+            android:id="@+id/toprightlatlong"
+            android:layout_below="@+id/topleftlatlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TopRight:" 
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:id="@+id/edittoprightlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomleftlatlong"
+            android:layout_below="@+id/edittopleftlong"
+            android:layout_toRightOf="@+id/toprightlatlong"
+            android:textSize="12sp" />
+        
+        <TextView
+            android:id="@+id/bottomleftlatlong"
+            android:layout_below="@+id/toprightlatlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BottomLeft:"
+            android:textStyle="bold"
+ 
+             />
+        
+        <TextView
+            android:id="@+id/editbottomleftlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bpttomrightleftlatlong"
+            android:layout_below="@+id/edittoprightlong"
+            android:layout_toRightOf="@+id/bottomleftlatlong"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/bpttomrightleftlatlong"
+            android:layout_below="@+id/bottomleftlatlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BottomRight:"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/editbottomrightlong"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bpttomrightleftlatlong"
+            android:layout_below="@+id/editbottomleftlong"
+            android:layout_toRightOf="@+id/bpttomrightleftlatlong"
+            android:textSize="12sp" />
+</RelativeLayout>
+  
+    
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--   android:background="@drawable/shapedrawableline"  apply this  for make boundry-->
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/pic1"
+         >
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/item_image"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+         >
+     
+        
+        <TextView
+            android:id="@+id/item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+        <LinearLayout
+            android:orientation="horizontal" >
+            
+        
+      <TextView
+            android:id="@+id/topleftlatlong"
+             android:layout_below="@+id/item_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="TopLeft:" 
+            android:textStyle="bold"/>
+     
+        <TextView
+            android:id="@+id/edittopleftlong"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/toprightlatlong"
+            android:layout_below="@+id/item_text"
+            android:layout_toRightOf="@+id/topleftlatlong"
+            android:text="topleft"
+            android:textSize="15dp" />
+</LinearLayout>
+        
+         <TextView
+            android:id="@+id/toprightlatlong"
+            android:layout_below="@+id/topleftlatlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TopRight:" 
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:id="@+id/edittoprightlong"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomleftlatlong"
+            android:layout_below="@+id/edittopleftlong"
+            android:layout_toRightOf="@+id/toprightlatlong"
+            android:hint="topright"
+            android:textSize="15dp" />
+        
+        <TextView
+            android:id="@+id/bottomleftlatlong"
+            android:layout_below="@+id/toprightlatlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BottomLeft:"
+            android:textStyle="bold"
+ 
+             />
+        
+        <TextView
+            android:id="@+id/editbottomleftlong"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bpttomrightleftlatlong"
+            android:layout_below="@+id/edittoprightlong"
+            android:layout_toRightOf="@+id/bottomleftlatlong"
+            android:hint="bottomleft"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/bpttomrightleftlatlong"
+            android:layout_below="@+id/bottomleftlatlong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BottomRight:"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/editbottomrightlong"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bpttomrightleftlatlong"
+            android:layout_below="@+id/editbottomleftlong"
+            android:layout_toRightOf="@+id/bpttomrightleftlatlong"
+            android:hint="bottomright"
+            android:textSize="15dp" />
+</LinearLayout>
+       <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_alignParentRight="true"
+       android:layout_centerVertical="true"
+       
+        /> 
+    
+    
+</RelativeLayout> -->
+
+
+
+<!-- From: file:/home/ram/Downloads/MapTileTool/app/src/main/res/layout/row_grid.xml -->

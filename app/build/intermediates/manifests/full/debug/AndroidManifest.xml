@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobimedia.locationmaptool"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/earth"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_api_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="com.mobimedia.locationmaptool.ui.SplashScreenActivity"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mobimedia.locationmaptool.ui.GridviewActivity"
+            android:label="@string/title_activity_gridview" >
+        </activity>
+        <activity
+            android:name="com.mobimedia.locationmaptool.ui.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.mobimedia.locationmaptool.helper.ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name="com.mobimedia.locationmaptool.ui.ShowTilesOnMap"
+            android:label="@string/title_activity_getall_tile" >
+        </activity>
+        <activity
+            android:name="com.mobimedia.locationmaptool.ui.TileMoveActivity"
+            android:label="@string/title_activity_tile_move" >
+        </activity>
+        <activity
+            android:name="com.mobimedia.locationmaptool.AdjustMapTiles"
+            android:label="@string/title_activity_adjust_map_tiles" >
+        </activity>
+        <activity
+            android:name="com.mobimedia.locationmaptool.ui.AdjustAllTile"
+            android:label="@string/title_activity_adjust_all_tile" >
+        </activity>
+    </application>
+
+</manifest>

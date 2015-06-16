@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-30e6137d5a915250ac4603c55f9d199456401b5f.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-8fcb76a73d4a0542b9cef28e70de56f4ea714550.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bb36004beb02b69562cbec9aa7d6a3cf16bf5d1b">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-832d4fe95238fb6a933e32f61ef8a39b8cc62868.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-1404a9b6ae5fbae3d05e19cc54e2bbb7b0ad4504.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-0a150a42e9affd59c3728d97fb58ea1363e3bed1.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-655c52a35133f373199cc9ad011514a9a0b66911.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-a152a887da0ffe7fddcbefe27044b475d75808c4.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-2eee3064bd516b5e96aaf733d0b56a53ade875eb.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-d11afa0118b2a8dc9beb887bb9343d13d3b87552.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-057fa4e43fdfdf58b0980437baf6d89b24d107b0.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-1af762c97ed270285374476f2f701dd8d5d11959.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-55a56d65d071fa44720742cb472d56df62d065ca.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-0d9cc5c673e244cbb10e55dd84dddf5463558431.jar" />
+    </item>
+    <item
+        jar="/home/ram/Desktop/Eclipse/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-6e01f0930ea4f0b2aef59e61d7ce4940fa59f873.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-762f9c8a7b25064dadcac82947a205dc876975ca.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-9066d5ceccded5ee329bb2f11ffcb37d4f56e950.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-4cac57641869c2aafc19ff1b00e5b439040b76d4.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-f3446e2f3b6ed75a09f650507a9d4e603f343d72.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-b9934fb01aeb9c21bf936df863342b3b28101818.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-2488772b7339148131044a2e56dd3d6d7e15cba3.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-34a88139e7d2e7eba5f9da5687c6cffd8e0b174e.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-ccc77f0636626f73b2e8bdb728b0aab49fa54dc0.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-7a685f5d35f200f8859863fe64e5f85d0c68d3b1.jar" />
+    </item>
+    <item
+        jar="/home/ram/Downloads/MapTileTool/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/home/ram/Downloads/MapTileTool/app/build/intermediates/pre-dexed/debug/classes-95a7ac7bb997f6241dfde76fb69be0063ed2e8a7.jar" />
+    </item>
+
+</items>

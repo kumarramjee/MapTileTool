@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="image_ids">
+    <item>manesar02</item>
+     <item>manesar01</item>
+      <item>manesar03</item>
+        <item>manesar04</item>
+          <item>manesar05</item>
+            <item>manesar06</item>
+              <item>manesar07</item>
+                <item>manesar08</item>
+                  <item>manesar09</item>
+                    <item>manesar10</item>
+                      <item>manesar11</item>
+                        <item>manesar12</item>
+                          <item>manesar13</item>
+                            <item>manesar14</item>
+                              <item>manesar15</item>
+</string-array>
+    
+</resources>
